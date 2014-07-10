@@ -38,4 +38,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     UpdateSetting
 
+# QuickBoot
+PRODUCT_PACKAGES += \
+    QuickBoot
+
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
